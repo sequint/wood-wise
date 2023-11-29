@@ -19,5 +19,8 @@ int main(int argc, const char * argv[]) {
     // Get the length of each piece
     // Calculate number of boards needed to be purchased
     
+    // Print new lines to seperate project output from exit code output
+    printf("\n\n");
+    
     return 0;
 }
