@@ -9,18 +9,12 @@
 //
 
 #include <stdio.h>
+#include "getStandardBoardLength.h"
 
-int getStandardWoodLength(void) {
-    int boardLength;
-    
-    printf("Enter board length sold at the store: ");
-    scanf("%d", &boardLength);
-    
-    return boardLength;
-}
+
 
 int main(int argc, const char * argv[]) {
-    int standardWoodLength = getStandardWoodLength();
+    int standardWoodLength = getStandardBoardLength();
     // Get number of pieces needed for the project
     // Get the length of each piece
     // Calculate number of boards needed to be purchased
