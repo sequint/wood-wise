@@ -7,8 +7,13 @@
 
 #include <stdio.h>
 
+int getStandardWoodLength(void) {
+    printf("FIX ME: getStandardWoodLength()");
+    return -1;
+}
+
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    int standardWoodLength = getStandardWoodLength();
+    
     return 0;
 }
