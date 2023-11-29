@@ -17,10 +17,14 @@
 
 int main(int argc, const char * argv[]) {
     int standardBoardLength = getStandardBoardLength();
+    
     int boardsInProject = getTotalBoardsForProject();
+    
     int projectBoardLengths[boardsInProject];
     int *boardLengthsPointer = getBoardLengths(projectBoardLengths, boardsInProject);
+    
     // Calculate number of boards needed to be purchased
+    int numBoardsToPurchase;
     
     // Print new lines to seperate project output from exit code output
     printf("\n\n");
