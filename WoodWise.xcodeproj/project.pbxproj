@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2104E1A12B17B80900A6A81A /* getStandardBoardLength.c in Sources */ = {isa = PBXBuildFile; fileRef = 2104E1A02B17B80900A6A81A /* getStandardBoardLength.c */; };
 		2104E1A42B17BB4200A6A81A /* getTotalBoardsForProject.c in Sources */ = {isa = PBXBuildFile; fileRef = 2104E1A32B17BB4200A6A81A /* getTotalBoardsForProject.c */; };
+		2104E1A72B17BD6E00A6A81A /* getBoardLengths.c in Sources */ = {isa = PBXBuildFile; fileRef = 2104E1A62B17BD6E00A6A81A /* getBoardLengths.c */; };
 		21E6CED72B0BE83E0086C94C /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 21E6CED62B0BE83E0086C94C /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,8 @@
 		2104E1A02B17B80900A6A81A /* getStandardBoardLength.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = getStandardBoardLength.c; sourceTree = "<group>"; };
 		2104E1A22B17BB4200A6A81A /* getTotalBoardsForProject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = getTotalBoardsForProject.h; sourceTree = "<group>"; };
 		2104E1A32B17BB4200A6A81A /* getTotalBoardsForProject.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = getTotalBoardsForProject.c; sourceTree = "<group>"; };
+		2104E1A52B17BD6E00A6A81A /* getBoardLengths.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = getBoardLengths.h; sourceTree = "<group>"; };
+		2104E1A62B17BD6E00A6A81A /* getBoardLengths.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = getBoardLengths.c; sourceTree = "<group>"; };
 		21E6CED32B0BE83E0086C94C /* WoodWise */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WoodWise; sourceTree = BUILT_PRODUCTS_DIR; };
 		21E6CED62B0BE83E0086C94C /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,6 +71,8 @@
 				2104E1A02B17B80900A6A81A /* getStandardBoardLength.c */,
 				2104E1A22B17BB4200A6A81A /* getTotalBoardsForProject.h */,
 				2104E1A32B17BB4200A6A81A /* getTotalBoardsForProject.c */,
+				2104E1A52B17BD6E00A6A81A /* getBoardLengths.h */,
+				2104E1A62B17BD6E00A6A81A /* getBoardLengths.c */,
 			);
 			path = WoodWise;
 			sourceTree = "<group>";
@@ -132,6 +137,7 @@
 				2104E1A12B17B80900A6A81A /* getStandardBoardLength.c in Sources */,
 				21E6CED72B0BE83E0086C94C /* main.c in Sources */,
 				2104E1A42B17BB4200A6A81A /* getTotalBoardsForProject.c in Sources */,
+				2104E1A72B17BD6E00A6A81A /* getBoardLengths.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
