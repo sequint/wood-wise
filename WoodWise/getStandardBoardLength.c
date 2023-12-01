@@ -11,7 +11,7 @@ int getStandardBoardLength(void)
 {
     int boardLength;
     
-    printf("Enter board length sold at the store: ");
+    printf("Enter board length sold at the store in inches: ");
     scanf("%d", &boardLength);
     
     return boardLength;
