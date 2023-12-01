@@ -7,7 +7,8 @@
 
 #include "getBoardLengths.h"
 
-int* getBoardLengths(int boardLengths[], int numBoards) {
+int* getBoardLengths(int boardLengths[], int numBoards)
+{
     for (int i = 0; i < numBoards; i++) {
         printf("Enter length of board #");
         printf("%d", i + 1);

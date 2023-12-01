@@ -7,7 +7,8 @@
 
 #include "getStandardBoardLength.h"
 
-int getStandardBoardLength(void) {
+int getStandardBoardLength(void)
+{
     int boardLength;
     
     printf("Enter board length sold at the store: ");

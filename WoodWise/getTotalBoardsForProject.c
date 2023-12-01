@@ -7,7 +7,8 @@
 
 #include "getTotalBoardsForProject.h"
 
-int getTotalBoardsForProject(void) {
+int getTotalBoardsForProject(void)
+{
     int boardsInProject;
     
     printf("Enter total amount of wood boards included in the project: ");
