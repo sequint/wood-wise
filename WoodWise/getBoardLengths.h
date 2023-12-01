@@ -10,6 +10,6 @@
 
 #include <stdio.h>
 
-int* getBoardLengths(int boardLengths[], int numBoards);
+int* getBoardLengths(int boardLengths[], int numBoards, int maxLength);
 
 #endif /* getBoardLengths_h */

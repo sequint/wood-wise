@@ -24,7 +24,7 @@ int main(int argc, const char * argv[])
     int boardsInProject = getTotalBoardsForProject();
     
     int projectBoardLengths[boardsInProject];
-    int *boardLengthsPointer = getBoardLengths(projectBoardLengths, boardsInProject);
+    int *boardLengthsPointer = getBoardLengths(projectBoardLengths, boardsInProject, standardBoardLength);
     
     int numBoardsToPurchase = getNumBoardsToPurchase(boardLengthsPointer, standardBoardLength, boardsInProject);
     
