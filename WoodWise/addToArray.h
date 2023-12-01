@@ -10,6 +10,6 @@
 
 #include <stdio.h>
 
-int* addToArray(int oldArray[], int arrayPtr[], int ARRAY_SIZE, int numToAdd);
+void addToArray(int *arrayPtr, int ARRAY_SIZE, int numToAdd);
 
 #endif /* addToArray_h */

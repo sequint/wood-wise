@@ -5,18 +5,14 @@
 //  Created by Steven Quintana on 11/29/23.
 //
 
+#include <stdlib.h>
 #include "addToArray.h"
 
-int* addToArray(int oldArray[], int newArray[], int ARRAY_SIZE, int numToAdd) {
-    // Copy existing array and add num to extra allocation of memory
-    for (int i = 0; i < ARRAY_SIZE; i++) {
-        if (i == ARRAY_SIZE - 1) {
-            newArray[i] = numToAdd;
-        }
-        else {
-            newArray[i] = oldArray[i];
-        }
-    }
+void addToArray(int *arrayPtr, int NEW_ARRAY_SIZE, int numToAdd)
+{
+    // Reassign remainder array pointer to new size with remainder count
+    arrayPtr = realloc(arrayPtr, NEW_ARRAY_SIZE * sizeof(int));
     
-    return newArray;
+    // Add the new remainder value to then end of the reallocated array
+    arrayPtr[NEW_ARRAY_SIZE - 1] = numToAdd;
 }

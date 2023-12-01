@@ -8,9 +8,11 @@
 #include <stdlib.h>
 #include "removeFromArray.h"
 
-void removeFromArray(int *arrayPtr, int indexToRemove, int NEW_ARRAY_SIZE) {
+void removeFromArray(int *arrayPtr, int indexToRemove, int NEW_ARRAY_SIZE)
+{
     // Starting at the index after the index to remove shift elements left
-    for (int i = indexToRemove; i < NEW_ARRAY_SIZE; i++) {
+    for (int i = indexToRemove; i < NEW_ARRAY_SIZE; i++)
+    {
         arrayPtr[i] = arrayPtr[i + 1];
     }
     

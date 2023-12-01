@@ -53,16 +53,10 @@ int getNumBoardsToPurchase(int boardLengths[], int standardLength, int numBoards
             numBoardsToPurchase++;
             
             int remainder = standardLength - boardLengths[i];
-            
             if (remainder > 0)
             {
                 remainderBoardsCount++;
-                
-                // Reassign remainder array pointer to new size with remainder count
-                remainderLengthsPtr = realloc(remainderLengthsPtr, remainderBoardsCount * sizeof(int));
-                
-                // Add the new remainder value to then end of the reallocated array
-                remainderLengthsPtr[remainderBoardsCount - 1] = remainder;
+                addToArray(remainderLengthsPtr, remainderBoardsCount, remainder);
             }
         }
     }
