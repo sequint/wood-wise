@@ -10,6 +10,6 @@
 
 #include <stdio.h>
 
-int* removeFromArray(int array[], int indexToRemove, int ARRAY_SIZE);
+int* removeFromArray(int *arrayPtr, int indexToRemove, int ARRAY_SIZE);
 
 #endif /* removeFromArray_h */

@@ -12,6 +12,7 @@
 #include "getStandardBoardLength.h"
 #include "getTotalBoardsForProject.h"
 #include "getBoardLengths.h"
+#include "getNumBoardsToPurchase.h"
 
 
 
@@ -23,8 +24,10 @@ int main(int argc, const char * argv[]) {
     int projectBoardLengths[boardsInProject];
     int *boardLengthsPointer = getBoardLengths(projectBoardLengths, boardsInProject);
     
-    // Calculate number of boards needed to be purchased
-    int numBoardsToPurchase;
+    int numBoardsToPurchase = getNumBoardsToPurchase(boardLengthsPointer, standardBoardLength, boardsInProject);
+//    
+    printf("Boards you need to purchase: ");
+    printf("%d", numBoardsToPurchase);
     
     // Print new lines to seperate project output from exit code output
     printf("\n\n");

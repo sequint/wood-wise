@@ -10,6 +10,6 @@
 
 #include <stdio.h>
 
-int getNumBoardsToPurchase(int boardLengths[], int standardLength);
+int getNumBoardsToPurchase(int boardLengths[], int standardLength, int numBoardsInProj);
 
 #endif /* getNumBoardsToPurchase_h */

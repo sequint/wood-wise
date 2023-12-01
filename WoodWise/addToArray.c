@@ -7,19 +7,16 @@
 
 #include "addToArray.h"
 
-int* addToArray(int array[], int num, int ARRAY_SIZE) {
-    int newArray[ARRAY_SIZE];
-    int *newArrPtr = newArray;
-    
+int* addToArray(int oldArray[], int newArray[], int ARRAY_SIZE, int numToAdd) {
     // Copy existing array and add num to extra allocation of memory
     for (int i = 0; i < ARRAY_SIZE; i++) {
         if (i == ARRAY_SIZE - 1) {
-            newArray[i] = num;
+            newArray[i] = numToAdd;
         }
         else {
-            newArray[i] = array[i];
+            newArray[i] = oldArray[i];
         }
     }
     
-    return newArrPtr;
+    return newArray;
 }
