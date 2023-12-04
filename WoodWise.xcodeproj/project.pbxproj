@@ -11,8 +11,6 @@
 		2104E1A42B17BB4200A6A81A /* getTotalBoardsForProject.c in Sources */ = {isa = PBXBuildFile; fileRef = 2104E1A32B17BB4200A6A81A /* getTotalBoardsForProject.c */; };
 		2104E1A72B17BD6E00A6A81A /* getBoardLengths.c in Sources */ = {isa = PBXBuildFile; fileRef = 2104E1A62B17BD6E00A6A81A /* getBoardLengths.c */; };
 		2104E1AA2B17C3F500A6A81A /* getNumBoardsToPurchase.c in Sources */ = {isa = PBXBuildFile; fileRef = 2104E1A92B17C3F500A6A81A /* getNumBoardsToPurchase.c */; };
-		2104E1AD2B17F83600A6A81A /* addToArray.c in Sources */ = {isa = PBXBuildFile; fileRef = 2104E1AC2B17F83600A6A81A /* addToArray.c */; };
-		2104E1B02B18045100A6A81A /* removeFromArray.c in Sources */ = {isa = PBXBuildFile; fileRef = 2104E1AF2B18045100A6A81A /* removeFromArray.c */; };
 		2104E1B32B1A92DE00A6A81A /* printTotalBoardsNeeded.c in Sources */ = {isa = PBXBuildFile; fileRef = 2104E1B22B1A92DE00A6A81A /* printTotalBoardsNeeded.c */; };
 		21E6CED72B0BE83E0086C94C /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 21E6CED62B0BE83E0086C94C /* main.c */; };
 /* End PBXBuildFile section */
@@ -38,10 +36,6 @@
 		2104E1A62B17BD6E00A6A81A /* getBoardLengths.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = getBoardLengths.c; sourceTree = "<group>"; };
 		2104E1A82B17C3F500A6A81A /* getNumBoardsToPurchase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = getNumBoardsToPurchase.h; sourceTree = "<group>"; };
 		2104E1A92B17C3F500A6A81A /* getNumBoardsToPurchase.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = getNumBoardsToPurchase.c; sourceTree = "<group>"; };
-		2104E1AB2B17F83600A6A81A /* addToArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = addToArray.h; sourceTree = "<group>"; };
-		2104E1AC2B17F83600A6A81A /* addToArray.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = addToArray.c; sourceTree = "<group>"; };
-		2104E1AE2B18045100A6A81A /* removeFromArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = removeFromArray.h; sourceTree = "<group>"; };
-		2104E1AF2B18045100A6A81A /* removeFromArray.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = removeFromArray.c; sourceTree = "<group>"; };
 		2104E1B12B1A92DE00A6A81A /* printTotalBoardsNeeded.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = printTotalBoardsNeeded.h; sourceTree = "<group>"; };
 		2104E1B22B1A92DE00A6A81A /* printTotalBoardsNeeded.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = printTotalBoardsNeeded.c; sourceTree = "<group>"; };
 		21E6CED32B0BE83E0086C94C /* WoodWise */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WoodWise; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,10 +81,6 @@
 				2104E1A62B17BD6E00A6A81A /* getBoardLengths.c */,
 				2104E1A82B17C3F500A6A81A /* getNumBoardsToPurchase.h */,
 				2104E1A92B17C3F500A6A81A /* getNumBoardsToPurchase.c */,
-				2104E1AB2B17F83600A6A81A /* addToArray.h */,
-				2104E1AC2B17F83600A6A81A /* addToArray.c */,
-				2104E1AE2B18045100A6A81A /* removeFromArray.h */,
-				2104E1AF2B18045100A6A81A /* removeFromArray.c */,
 				2104E1B12B1A92DE00A6A81A /* printTotalBoardsNeeded.h */,
 				2104E1B22B1A92DE00A6A81A /* printTotalBoardsNeeded.c */,
 			);
@@ -154,11 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2104E1AD2B17F83600A6A81A /* addToArray.c in Sources */,
 				2104E1A12B17B80900A6A81A /* getStandardBoardLength.c in Sources */,
 				2104E1B32B1A92DE00A6A81A /* printTotalBoardsNeeded.c in Sources */,
 				2104E1AA2B17C3F500A6A81A /* getNumBoardsToPurchase.c in Sources */,
-				2104E1B02B18045100A6A81A /* removeFromArray.c in Sources */,
 				21E6CED72B0BE83E0086C94C /* main.c in Sources */,
 				2104E1A42B17BB4200A6A81A /* getTotalBoardsForProject.c in Sources */,
 				2104E1A72B17BD6E00A6A81A /* getBoardLengths.c in Sources */,
